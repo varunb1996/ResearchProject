@@ -54,13 +54,13 @@ machine learning problem, as mishandling of data might severely affect
 the accuracy of the model as well as the predictions and the classification results
 
 RESULTS:
-Deep Neural Decision Tree Train acc- 72% Test acc- 74%
-Deep Neural Decision Forest Train acc- 72% Test acc- 76%
-Deep Forest Train acc- 74% Test acc- 77%
-Deep SVM Train acc- 80% Test acc- 82%
-Explainers LIME & SHAP compatible with all 4 ensemble learners
-But the framework used for comparison LEAF is not compatible with DNDT and DNDF
-Hence, suggested a tenative design of a new framework and also some metrics that can be improved in the current framework
+Deep Neural Decision Tree Train acc- 72% Test acc- 74%.
+Deep Neural Decision Forest Train acc- 72% Test acc- 76%.
+Deep Forest Train acc- 74% Test acc- 77%.
+Deep SVM Train acc- 80% Test acc- 82%.
+Explainers LIME & SHAP compatible with all 4 ensemble learners.
+But the framework used for comparison LEAF is not compatible with DNDT and DNDF.
+Hence, suggested a tenative design of a new framework and also some metrics that can be improved in the current framework.
 
 RUNNING THE CODE:
 Run the main.py file which will run the code//
