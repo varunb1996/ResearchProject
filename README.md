@@ -1,7 +1,6 @@
-# ResearchProject
 EXPLAINING AI MODELS WITH DEEP ENSEMBLE LEARNING TECHNIQUES
 
-MOTIVATION
+MOTIVATION:
 The major disadvantage of the existing deep learning techniques is the trade off 
 of the models between explainability and performance. This means that the 
 algorithms are becoming increasingly complex to be understood in the process 
@@ -21,7 +20,7 @@ models with LIME and SHAP approaches. The explainers are evaluated with the
 aid of LEAF, which employs a variety of metrics to determine whether the 
 explanation is locally accurate
 
-DATASET INFORMATION
+DATASET INFORMATION:
 The dataset is an automotive dataset where the 7 features are the 
 important parameters of the Hybrid Electric Vehicle (HEV) and the 5 
 labels indicating the 5 classes are the faults that are responsible for the 
@@ -54,7 +53,7 @@ input features and the output classes. EDA plays an important role in any
 machine learning problem, as mishandling of data might severely affect 
 the accuracy of the model as well as the predictions and the classification results
 
-RESULTS
+RESULTS:
 Deep Neural Decision Tree Train acc- 72% Test acc- 74%
 Deep Neural Decision Forest Train acc- 72% Test acc- 76%
 Deep Forest Train acc- 74% Test acc- 77%
@@ -63,7 +62,7 @@ Explainers LIME & SHAP compatible with all 4 ensemble learners
 But the framework used for comparison LEAF is not compatible with DNDT and DNDF
 Hence, suggested a tenative design of a new framework and also some metrics that can be improved in the current framework
 
-RUNNING THE CODE
+RUNNING THE CODE:
 Run the main.py file which will run the code//
 Compare.py checks the respective ensemble learners with LIME and SHAP//
 Get_Data.py gets the data and performs data wrangling//
