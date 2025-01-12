@@ -62,7 +62,8 @@ Explainers LIME & SHAP compatible with all 4 ensemble learners.
 But the framework used for comparison LEAF is not compatible with DNDT and DNDF.
 Hence, suggested a tenative design of a new framework and also some metrics that can be improved in the current framework.
 The results are obtained via binary comaprison method for e.g. 0th vs 1st class, 0th vs 2nd class, 0th vs 3rd class and 0th vs 4th class.
-In this case, the results uploaded here are only for the first case i.e. 0th (No fault) vs 1st (Motor fault)
+In this case, the results (PNG image files) uploaded here are only for the first case i.e. 0th (No fault) vs 1st (Motor fault).
+DF=Deep Forest, DNDT=Deep Neural Decision Tree, DNDF=Deep Neural Decision Forest, DSVM=Deep Support Vector Machine
 
 
 RUNNING THE CODE:
