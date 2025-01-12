@@ -61,7 +61,9 @@ Deep SVM Train acc- 80% Test acc- 82%.
 Explainers LIME & SHAP compatible with all 4 ensemble learners.
 But the framework used for comparison LEAF is not compatible with DNDT and DNDF.
 Hence, suggested a tenative design of a new framework and also some metrics that can be improved in the current framework.
-Unfortunately the results can't be directly published because of data privacy issues. Run the code to obtain the results 
+The results are obtained via binary comaprison method for e.g. 0th vs 1st class, 0th vs 2nd class, 0th vs 3rd class and 0th vs 4th class.
+In this case, the results uploaded here are only for the first case i.e. 0th (No fault) vs 1st (Motor fault)
+
 
 RUNNING THE CODE:
 Run the main.py file which will run the code//
